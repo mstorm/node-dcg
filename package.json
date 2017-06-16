@@ -1,0 +1,26 @@
+{
+  "name": "node-dcg",
+  "version": "0.0.1",
+  "description": "Discounted cumulative gain (DCG) calculator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Stephen Kwon <mstorm@mstorm.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mstorm/node-dcg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mstorm/node-dcg/issues"
+  },
+  "keywords": [
+    "dcg",
+    "ndcg",
+    "measure"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
