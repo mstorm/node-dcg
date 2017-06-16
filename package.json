@@ -1,6 +1,6 @@
 {
   "name": "node-dcg",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Discounted cumulative gain (DCG) calculator.",
   "main": "index.js",
   "scripts": {
