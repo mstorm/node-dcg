@@ -1,6 +1,6 @@
 {
   "name": "node-dcg",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Discounted cumulative gain (DCG) calculator.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "10.1.0"
   }
 }

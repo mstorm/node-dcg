@@ -1,5 +1,3 @@
-'use strict';
-
 function dcg(scores) {
     return scores.reduce(function (sum, gain, i) {
         return sum + gain / Math.log2(i + 2);
@@ -15,9 +13,7 @@ dcg.dcg2 = function dcg2(scores) {
 };
 
 dcg.ideal = function ideal(scores) {
-    return [].concat(scores).sort(function (a, b) {
-        return a < b;
-    });
+    return scores.slice().sort().reverse()
 };
 
 dcg.ndcg = function ndcg(scores) {
